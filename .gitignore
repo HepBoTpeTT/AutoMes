@@ -1,0 +1,42 @@
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# Visual Studio temp files
+.vs/
+*.vspscc
+
+# NuGet Packages
+**/packages/
+*.nupkg
+# except repo-package ones
+!packages/build/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Logs
+*.log
+
+# MAUI/Blazor specific
+Platforms/*/bin/
+Platforms/*/obj/
+bin/
+obj/
+*.csproj.user
+appsettings*.json  # кроме appsettings.json, если нужен
